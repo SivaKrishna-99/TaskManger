@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#task-form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+#task-list, #completed-task-list {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.task, .completed-task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.task-name, .completed-task-name {
+    font-weight: bold;
+}
+
+.task-due-date, .completed-task-completion-date {
+    color: gray;
+}
+
+.task-priority, .completed-task-completed-by {
+    font-style: italic;
+}
